@@ -40,8 +40,8 @@ def emp_data():
     print('Employee Designation', emp_designation())
     print('Employee City', emp_city())
     print('Employee salary {:.2f}'.format(emp_salary()))
-
-for i in range(10):
+n=eval(input('enter the number of data you want')
+for i in range(n):
     print(emp_data())
 
 
